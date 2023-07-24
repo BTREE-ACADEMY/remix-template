@@ -14,7 +14,7 @@ import {
 import styles from "./tailwind.css";
 import { LinksFunction } from "@remix-run/node";
 
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
+export const links = () => [{ rel: "stylesheet", href: styles }];
 
 export default function App() {
   return (
